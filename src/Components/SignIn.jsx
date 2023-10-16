@@ -19,7 +19,7 @@ const SignIn = () => {
         }
         console.log(user);
         //update last logged at in the database
-        fetch('http://localhost:5000/updateUser',{
+        fetch('https://coffee-store-server-9wq0ey8yb-joys-projects-3bf6e672.vercel.app/updateUser',{
             method:'PATCH',
             headers:{
                 'content-type': 'application/json'
