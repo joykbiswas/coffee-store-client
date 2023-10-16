@@ -18,7 +18,7 @@ const AddCoffee = () => {
         const newCoffee ={name,quantity,supplier,taste,category,details,photo}
         console.log(newCoffee);
         // send data to the server
-        fetch('https://coffee-store-server-9wq0ey8yb-joys-projects-3bf6e672.vercel.app/coffee',{
+        fetch('https://coffee-store-server-n73abjfj4-joys-projects-3bf6e672.vercel.app/coffee',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
